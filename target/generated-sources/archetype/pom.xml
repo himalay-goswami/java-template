@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>work.higo</groupId>
+  <artifactId>java-starter-template-archetype</artifactId>
+  <version>1.0</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>java-starter-template-archetype</name>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.4.0</version>
+      </extension>
+    </extensions>
+  </build>
+
+  <description>A minimal Java project template with Lombok, Jackson, SLF4J, JUnit 5, and executable JAR support.</description>
+
+  <url>http://www.higo.work</url>
+
+  <developers>
+    <developer>
+      <id>himmy</id>
+      <name>Himalay Goswami</name>
+      <email>hello@higo.work</email>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:https://github.com/himalay-goswami/java-template.git</connection>
+    <developerConnection>scm:git:git@github.com:himalay-goswami/java-template.git</developerConnection>
+    <url>https://github.com/himalay-goswami/java-template</url>
+  </scm>
+</project>
